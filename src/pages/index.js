@@ -14,7 +14,7 @@ var component = ReasonReact.statelessComponent("Index");
 function make() {
   var newrecord = component.slice();
   newrecord[/* render */9] = (function () {
-      return React.createElement("div", undefined, React.createElement("h1", undefined, "Hi people"), React.createElement("p", undefined, "Welcome to your new Gatsby site."), React.createElement("p", undefined, "Now go build something great."), ReasonReact.element(/* None */0, /* None */0, Link.make("/page_2/", /* array */["Go to page 2"])));
+      return React.createElement("div", undefined, React.createElement("h1", undefined, "Hi people"), React.createElement("p", undefined, "Welcome to your new Gatsby site."), React.createElement("p", undefined, "Now go build something great."), ReasonReact.element(/* None */0, /* None */0, Link.make("/page_2/", /* None */0, /* array */["Go to page 2"])));
     });
   return newrecord;
 }
