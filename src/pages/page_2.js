@@ -9,12 +9,12 @@ function text(prim) {
   return prim;
 }
 
-var component = ReasonReact.statelessComponent("Index");
+var component = ReasonReact.statelessComponent("Page 2");
 
 function make() {
   var newrecord = component.slice();
   newrecord[/* render */9] = (function () {
-      return React.createElement("div", undefined, React.createElement("h1", undefined, "Hi people"), React.createElement("p", undefined, "Welcome to your new Gatsby site."), React.createElement("p", undefined, "Now go build something great."), ReasonReact.element(/* None */0, /* None */0, Link.make("/page_2/", /* array */["Go to page 2"])));
+      return React.createElement("div", undefined, React.createElement("h1", undefined, "Hi from the second page"), React.createElement("p", undefined, "Welcome to page 2"), ReasonReact.element(/* None */0, /* None */0, Link.make("/", /* array */["Go back to the homepage"])));
     });
   return newrecord;
 }

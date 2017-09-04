@@ -8,7 +8,7 @@ let make _children => {
       <h1> (text "Hi people") </h1>
       <p> (text "Welcome to your new Gatsby site.") </p>
       <p> (text "Now go build something great.") </p>
-      <Link to_="/page-2/"> (text "Go to page 2") </Link>
+      <Link to_="/page_2/"> (text "Go to page 2") </Link>
     </div>
 };
 
