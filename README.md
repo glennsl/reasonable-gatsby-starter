@@ -5,3 +5,8 @@
   - Since `404.re` is not valid, the code for the custom error page has been put in `error404.re` and a `404.js` that simply re-exports `error404` has been aded as a bridge.
   - Dashes aren't valid in filenames, so `page-2.re` has been renamed to `page_2.re`, which of course causes the generated url to use an underscore instead of a dash too.
   - Filenames must be unique across the project, which heavily restricts possible URLs. In particular, only being able to have one `index.re` is causing significant problems. The solution currently used is to rename the file to something unique, e.g. `layouts_index.re`, then add an `index.js` that re-exports it.
+  
+## TODO
+* Integrate bs compilation into gatsby build process (probably via a plugin similar to https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-typescript)
+* Add support for writing plugins, gatsby-config.js, gatsby-node.js etc. in Reason
+* Add bindings for the more common gatsby plugins, remark, glamor etc.
