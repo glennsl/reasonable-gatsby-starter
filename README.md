@@ -9,4 +9,5 @@
 ## TODO
 * Integrate bs compilation into gatsby build process (probably via a plugin similar to https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-typescript)
 * Add support for writing plugins, gatsby-config.js, gatsby-node.js etc. in Reason
+* Find or make some graphql bindings
 * Add bindings for the more common gatsby plugins, remark, glamor etc.
